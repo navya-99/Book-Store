@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 
+//book model
 const bookSchema = mongoose.Schema(
   {
     title: {
@@ -20,4 +21,4 @@ const bookSchema = mongoose.Schema(
   }
 );
 
-export const Book = mongoose.model('Cat', bookSchema);
+export const Book = mongoose.model('Book', bookSchema);
